@@ -1,0 +1,52 @@
+h1 {
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+}
+p {
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+}
+   .menu {
+    position: fixed;
+    left:  10px;
+    top: 20%;
+    padding: 10px;
+    background: #ffe;
+    border: 1px solid #333;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+@font-face {
+	font-family: Roboto;
+	src: url(Roboto-Regular.ttf);
+}
+p {
+	text-align: center;
+}
+img {
+	width:55px;
+}
+body{
+
+	background-color: #07D3D5;
+	font-family: Roboto;
+}
+.img
+.photo1 {
+	background-image: url(img101.jpg);
+}
